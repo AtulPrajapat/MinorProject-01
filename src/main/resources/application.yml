@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+      
+app1:
+  messages:
+     saveSuccess: Contact Save Successfully
+     saveFail: Contact Failed To Save     
